@@ -13,3 +13,5 @@ The distribution layout is:
 The SciMigo app pins the Ed25519 public key and checks the manifest signature,
 archive size, SHA-256 digest, plugin contract and installed files before enabling
 the connector. The private signing key never belongs in this repository.
+The public SPKI key is in `signing-key.spki.b64`; the private key is held as a
+GitHub Actions secret in the private source repository.
