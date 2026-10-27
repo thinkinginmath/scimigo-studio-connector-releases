@@ -4,9 +4,11 @@ This repository is reserved for **signed release assets** of the SciMigo Studio
 connector. Its source, prompts and working files remain in the private connector
 repository. The v0.4.0 stable release was withdrawn on 2026-10-27 after its archive
 was found to include non-runtime test fixtures and reference solutions. Do not
-use v0.4.0. The stable manifest and bundle are absent from the current branch
-while a corrected signed release is prepared. Read `LICENSE` before using any
-future connector release. The source remains in the private connector repository.
+use v0.4.0. Fresh Studio connector installs are paused by owner decision
+`d-f32082d0ccb8`. The stable manifest and bundle are absent from the current
+branch. Existing locally verified cached connectors may still work through the
+app's fallback. Read `LICENSE` before using any future connector release. The
+source remains in the private connector repository.
 
 The distribution layout is:
 
@@ -23,4 +25,5 @@ GitHub Actions secret in the private source repository.
 
 - v0.4.0: withdrawn; source commit `thinkinginmath/scimigo-course-skills@6c30459`.
 - Withdrawn bundle SHA-256: `c0c1e72e241743c5a596db59415473ac49c2ab855d7cccd9f4ca822f70758e5c`.
-- A corrected version will restore `releases/stable/manifest.json`.
+- No corrected release or stable manifest will be published until the owner makes
+  a new decision to resume installs.
