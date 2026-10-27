@@ -2,9 +2,11 @@
 
 This repository is reserved for **signed release assets** of the SciMigo Studio
 connector. Its source, prompts and working files remain in the private connector
-repository. Release v0.4.0 is published here under the approved SciMigo Studio Connector
-Use License. Read `LICENSE` before downloading or using the connector. The
-source remains in the private connector repository.
+repository. The v0.4.0 stable release was withdrawn on 2026-10-27 after its archive
+was found to include non-runtime test fixtures and reference solutions. Do not
+use v0.4.0. The stable manifest and bundle are absent from the current branch
+while a corrected signed release is prepared. Read `LICENSE` before using any
+future connector release. The source remains in the private connector repository.
 
 The distribution layout is:
 
@@ -17,9 +19,8 @@ the connector. The private signing key never belongs in this repository.
 The public SPKI key is in `signing-key.spki.b64`; the private key is held as a
 GitHub Actions secret in the private source repository.
 
-## Current release
+## Release status
 
-- Version: `0.4.0`
-- Source commit: `thinkinginmath/scimigo-course-skills@6c30459`
-- Bundle SHA-256: `c0c1e72e241743c5a596db59415473ac49c2ab855d7cccd9f4ca822f70758e5c`
-- The signed stable manifest points to the exact versioned bundle.
+- v0.4.0: withdrawn; source commit `thinkinginmath/scimigo-course-skills@6c30459`.
+- Withdrawn bundle SHA-256: `c0c1e72e241743c5a596db59415473ac49c2ab855d7cccd9f4ca822f70758e5c`.
+- A corrected version will restore `releases/stable/manifest.json`.
