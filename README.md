@@ -23,8 +23,17 @@ GitHub Actions secret in the private source repository.
 
 - v0.4.0: withdrawn; source commit `thinkinginmath/scimigo-course-skills@6c30459`.
 - Withdrawn bundle SHA-256: `c0c1e72e241743c5a596db59415473ac49c2ab855d7cccd9f4ca822f70758e5c`.
-- **v0.4.3: stable.** Source `thinkinginmath/scimigo-course-skills@38f6660`, signed by its
+- **v0.4.3: previous stable.** Source `thinkinginmath/scimigo-course-skills@38f6660`, signed by its
   `studio-connector-release` workflow (run 41324077186). Bundle SHA-256
   `6cb542e4b9a52ec1082affaf34da1d372e6769d2f3a8d38df2a5fb27fc759cd5`, 69 runtime files from the
   builder's explicit allow-list: no tests, fixtures or solutions. Adds the PowerPoint Studio starter
   and the `scimigo-presentation` skill.
+
+- **v0.5.0: stable.** Owner approved publication and Mac activation on 2026-11-02,
+  from source `thinkinginmath/scimigo-course-skills@6d5c6cc9e2ab13f8c3d27733a43d27c79f2f1ff0`
+  (PR #35 remains unmerged), signed by workflow run 41328027490. Bundle SHA-256
+  `4858417fb2e58821f965360e6de6ae801092972d413c485089d06e0bf35679b7`.
+  Contains 72 explicitly allow-listed runtime files; no tests, fixtures, solutions
+  or UI design documents. Defaults ordinary creation to the local Claude/Codex
+  agent and skills, adds local visuals, and requires consent for hosted generation.
+  The pinned key, license and existing signature/tamper checks are unchanged.
