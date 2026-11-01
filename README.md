@@ -4,10 +4,8 @@ This repository is reserved for **signed release assets** of the SciMigo Studio
 connector. Its source, prompts and working files remain in the private connector
 repository. The v0.4.0 stable release was withdrawn on 2026-10-27 after its archive
 was found to include non-runtime test fixtures and reference solutions. Do not
-use v0.4.0. Fresh Studio connector installs are paused by owner decision
-`d-f32082d0ccb8`. The stable manifest and bundle are absent from the current
-branch. Existing locally verified cached connectors may still work through the
-app's fallback. Read `LICENSE` before using any future connector release. The
+use v0.4.0. Installs resumed on 2026-11-01 with v0.4.3 by owner decision `d-4b381ea565fd`
+(the earlier pause was `d-f32082d0ccb8`). Read `LICENSE` before using any future connector release. The
 source remains in the private connector repository.
 
 The distribution layout is:
@@ -25,5 +23,8 @@ GitHub Actions secret in the private source repository.
 
 - v0.4.0: withdrawn; source commit `thinkinginmath/scimigo-course-skills@6c30459`.
 - Withdrawn bundle SHA-256: `c0c1e72e241743c5a596db59415473ac49c2ab855d7cccd9f4ca822f70758e5c`.
-- No corrected release or stable manifest will be published until the owner makes
-  a new decision to resume installs.
+- **v0.4.3: stable.** Source `thinkinginmath/scimigo-course-skills@38f6660`, signed by its
+  `studio-connector-release` workflow (run 41324077186). Bundle SHA-256
+  `6cb542e4b9a52ec1082affaf34da1d372e6769d2f3a8d38df2a5fb27fc759cd5`, 69 runtime files from the
+  builder's explicit allow-list: no tests, fixtures or solutions. Adds the PowerPoint Studio starter
+  and the `scimigo-presentation` skill.
