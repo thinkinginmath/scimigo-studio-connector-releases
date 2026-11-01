@@ -31,7 +31,8 @@ GitHub Actions secret in the private source repository.
 
 - **v0.5.0: stable.** Owner approved publication and Mac activation on 2026-11-02,
   from source `thinkinginmath/scimigo-course-skills@6d5c6cc9e2ab13f8c3d27733a43d27c79f2f1ff0`
-  (PR #35 remains unmerged), signed by workflow run 41328027490. Bundle SHA-256
+  (PR #35 was subsequently merged as `12d26f52f271f67bd60ef23db58e2974767a78b5`),
+  signed by workflow run 41328027490. Bundle SHA-256
   `4858417fb2e58821f965360e6de6ae801092972d413c485089d06e0bf35679b7`.
   Contains 72 explicitly allow-listed runtime files; no tests, fixtures, solutions
   or UI design documents. Defaults ordinary creation to the local Claude/Codex
